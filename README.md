@@ -5,8 +5,9 @@
 `@codehivetx/goosebay` is a Node.js app which takes [Time Warrior](https://timewarrior.net) export data and feeds it
 into [QuickBooks Time](https://quickbooks.intuit.com/time-tracking/timesheets/) (formerly TSheets).
 
-Not affiliated with either
+Not affiliated at all with either organization.
 
+[![Node.js](https://github.com/codehivetx/goosebay/actions/workflows/nodejs.yaml/badge.svg?branch=dev)](https://github.com/codehivetx/goosebay/actions/workflows/nodejs.yaml)
 ### Why would I use this?
 
 If you use Time Warrior for your time tracking, but want to send that data
