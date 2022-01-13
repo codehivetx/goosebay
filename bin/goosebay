@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+/**
+ * Copyright (c) 2022 Code Hive Tx, LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+const Cli = require('../lib/cli');
+const process = require('process');
+const argv = require('minimist')(process.argv.slice(2), Cli.opts);
+
+// Vector everything to the Cli class
+const cli = new Cli();
+cli.run(argv)
+    .then(() => { },
+        (err) => {
+            console.error(err);
+            process.exitCode = 1;
+        });
