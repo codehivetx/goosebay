@@ -20,10 +20,6 @@ Goose Bay, NL, Canada is very roughly somewhere between Göteborg and Mountain V
 ## How does it work?
 
 Node.js, rest TBD
-## Running
-
-can use npx setc.
-
 ## Setup
 
 ### Configuration
@@ -47,6 +43,21 @@ your TSheets (numeric) user id (_how do I find this?_)
 
 A TSheets access token, see [here](https://tsheetsteam.github.io/api_docs/#getting-help).
 You can also set the `TSHEETS_TOKEN` env variable.
+
+- `goosebay --set 'tag.mytag.jobcode=12345'
+
+Sets the jobcode for the tag 'mytag' to 12345.  Use this for the 'primary' tag.
+This tag will be removed from the notes, because it is implied by the jobcode.
+
+- `goosebay --set 'tag.othertag.note=Do Some Stuff'
+
+This will cause an entry tagged 'mytag,othertag' to have the note 'Do Some Stuff'.
+
+## Running
+
+### Importing
+
+`timew export mytag 2022-01-12 | goosebay --import`
 
 ## License
 
