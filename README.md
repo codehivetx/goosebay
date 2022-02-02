@@ -53,6 +53,10 @@ This tag will be removed from the notes, because it is implied by the jobcode.
 
 This will cause an entry tagged 'mytag,othertag' to have the note 'Do Some Stuff'.
 
+- `goosebay --set 'tz=America/New_York'
+
+Set the time zone for all entries. Defaults to UTC.
+
 ## Running
 
 ### Importing
