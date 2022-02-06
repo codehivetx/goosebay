@@ -35,25 +35,17 @@ So for testing I use `-K test` before get, set or other operations.
 
 Set the following config settings (where `goosebay` is the CLI)
 
-- `goosebay --set uid=1234`
+- ( a bunch of auth stuff )
 
-your TSheets (numeric) user id (_how do I find this?_)
+- `goosebay --greet` to make sure you can login OK
 
-- `goosebay --set 'token=MYTOKENTOKENTOKEN'`
+- `goosebay --employee='Emily Platt'` to set your Employee ID.
 
-A TSheets access token, see [here](https://tsheetsteam.github.io/api_docs/#getting-help).
-You can also set the `TSHEETS_TOKEN` env variable.
-
-- `goosebay --set 'tag.mytag.jobcode=12345'
-
-Sets the jobcode for the tag 'mytag' to 12345.  Use this for the 'primary' tag.
-This tag will be removed from the notes, because it is implied by the jobcode.
-
-- `goosebay --set 'tag.othertag.note=Do Some Stuff'
+- `goosebay --set 'tag.othertag.note=Do Some Stuff'`
 
 This will cause an entry tagged 'mytag,othertag' to have the note 'Do Some Stuff'.
 
-- `goosebay --set 'tz=America/New_York'
+- `goosebay --set 'tz=America/New_York'`
 
 Set the time zone for all entries. Defaults to UTC.
 
