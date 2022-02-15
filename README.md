@@ -112,6 +112,10 @@ Review the output carefully and rerun with the following to actually make change
 
 `timew export mytag 2022-01-12 | env GOOSE_BAY_COMMIT=1 goosebay --import`
 
+Additionally, `--import` can take a .json file as input
+
+`… --import input.json`
+
 ## License
 
 [Apache-2.0](./LICENSE)
