@@ -14,6 +14,7 @@ const cli = new Cli();
 cli.run(argv)
     .then(() => { },
         (err) => {
-            console.error(err);
+            console.error({err});
+            console.dir({err}, {depth: Infinity, colors: true});
             process.exitCode = 1;
         });
