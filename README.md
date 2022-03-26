@@ -2,8 +2,7 @@
 
 ## What is this?
 
-`@codehivetx/goosebay` is a Node.js app which takes [Time Warrior](https://timewarrior.net) export data and feeds it
-into [QuickBooks Time](https://quickbooks.intuit.com/time-tracking/timesheets/) (formerly TSheets).
+`@codehivetx/goosebay` is a Node.js app which takes [Time Warrior](https://timewarrior.net) export data and feeds it into QuickBooks Time Tracking. (See NOTE below)
 
 Not affiliated at all with either organization.
 
@@ -115,6 +114,15 @@ Review the output carefully and rerun with the following to actually make change
 Additionally, `--import` can take a .json file as input
 
 `… --import input.json`
+
+## NOTE
+
+Note that, despite popular misconceptions, QuickBooks Time Tracking is NOT the
+same as QuickBooks Time/TSheets. It's confusing.
+
+I actually implemented support for QB Time/TSheets,
+you can find early commits here which support QB Time/TSheets, but since I don't use that
+product, I removed support.
 
 ## License
 
