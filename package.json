@@ -1,12 +1,17 @@
 {
   "name": "@codehivetx/goosebay",
   "version": "1.4.0",
-  "description": "",
+  "description": "Sync TimeWarrior entries into QuickBooks Time Tracking",
   "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codehivetx/goosebay.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "tap tests/*_test.js"
   },
+  "bin": "bin/goosebay",
   "keywords": [],
   "author": "Steven R. Loomis <srl295@gmail.com>",
   "license": "Apache-2.0",
@@ -24,8 +29,7 @@
     "eslint-plugin-license-header": "^0.4.0",
     "tap": "^15.1.6"
   },
-"publishConfig": {
-  "access": "public"
-}
-
+  "publishConfig": {
+    "access": "public"
+  }
 }
