@@ -1,6 +1,6 @@
 {
   "name": "@codehivetx/goosebay",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "Sync TimeWarrior entries into QuickBooks Time Tracking",
   "main": "lib/main.js",
   "repository": {
