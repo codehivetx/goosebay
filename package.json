@@ -19,7 +19,7 @@
     "chalk": "^5.0.0",
     "conf": "^10.1.1",
     "intuit-oauth": "^4.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "moment-timezone": "^0.5.34",
     "node-quickbooks": "^2.0.39"
   },
