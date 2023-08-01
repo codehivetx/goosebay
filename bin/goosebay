@@ -9,6 +9,8 @@ const Cli = require('../lib/cli');
 const process = require('process');
 const argv = require('minimist')(process.argv.slice(2), Cli.opts);
 
+console.dir({argv});
+
 // Vector everything to the Cli class
 const cli = new Cli();
 cli.run(argv)
