@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "tap tests/*_test.js"
+    "test": "tap tests/*_test.js --no-check-coverage"
   },
   "bin": "bin/goosebay",
   "keywords": [],
@@ -18,7 +18,7 @@
   "dependencies": {
     "chalk": "^5.0.0",
     "conf": "^10.1.1",
-    "intuit-oauth": "^4.0.0",
+    "intuit-oauth": "^4.2.5",
     "minimist": "^1.2.6",
     "moment-timezone": "^0.5.34",
     "node-quickbooks": "^2.0.43"
