@@ -2,3 +2,4 @@
 /local-*
 /.nyc_output
 logs/oAuthClient-log.log
+/.tap

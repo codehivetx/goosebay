@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "tap tests/*_test.js --no-check-coverage"
+    "test": "tap tests/*_test.js  --statements=25 --branches=60 --lines=28 --functions=13"
   },
   "bin": "bin/goosebay",
   "keywords": [],
@@ -27,7 +27,7 @@
     "chai": "^4.3.6",
     "eslint": "^8.6.0",
     "eslint-plugin-license-header": "^0.4.0",
-    "tap": "^15.1.6"
+    "tap": "^21.7.5"
   },
   "publishConfig": {
     "access": "public"
